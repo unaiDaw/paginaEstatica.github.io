@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="cronometro.js"></script>
+</head>
+<body>
+    <p style="font-size: 5em;" id="contador">0</p>
+
+    <button type="button" id="resetear" onclick="reset(document.getElementById('iniciar'),document.getElementById('parar'),document.getElementById('contador'))">Resetear</button>
+    <button type="button" id="iniciar" onclick="iniciar(this,document.getElementById('contador'))">Iniciar</button>
+    <button type="button" id="parar" onclick="parar(this,document.getElementById('contador'))">Parar</button>
+
+</body>
+</html>
